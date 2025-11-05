@@ -6,8 +6,7 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 # Stage 2: Run
-ARG BASE_IMAGE=openjdk:21-jdk-alpine 
-FROM ${BASE_IMAGE}
+FROM openjdk:21-jdk-alpine
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 EXPOSE 8080
