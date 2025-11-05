@@ -37,5 +37,5 @@ Sistema de delivery desenvolvido com Spring Boot e Java 21.
 
 ## 👨‍💻 Desenvolvedor
 
-Monique de La Cerda Campello - Instutor  
+Monique de La Cerda Campello - Instrutor  
 Desenvolvido com JDK 21 e Spring Boot 3.5.7
